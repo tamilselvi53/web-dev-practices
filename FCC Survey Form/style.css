@@ -1,0 +1,55 @@
+.form-card{
+    width: 600px;
+    background-color:	rgba(88, 77, 77, 0.6);
+    outline-style: inset;
+    outline-width: 1px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: helvetica;
+    text-align: left;
+  }
+  label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+  }
+  body{
+    background-color: pink;
+    background-image:url('https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 150%;
+  }
+  h1{
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+  }
+  
+  #interest{
+    margin: 10px 0px 20px 0px;
+  }
+  #text-area{
+   margin: -10px 0 0 ;
+  }
+  #name{
+    margin: 10px 0px -20px 0px;
+   
+  }
+  #email{
+    margin: 0px 0px -20px 0px;
+  
+  }
+  #age{
+    margin: 0px 0px 20px 0px;
+  }
+  #time-schedule{
+    margin: 10px 0px 20px 0px;
+  }
+  #submit{
+   align-text: center;
+    padding:5px 10px 5px 10px;
+    background-color: grey;
+    margin: 20px 40%
+  }

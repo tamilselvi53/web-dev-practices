@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css">
+  <title>Tinku's Survey form</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<div class="form-card">
+    <h1>Tinku survey form</h1>
+      <hr>
+    <p id="description"><p>
+      <form id="survey-form">
+        <p><div class="card1">
+          <label for="name-label">Name:
+          <input name="name-label" id="name" type="text" placeholder="Enter your name"  required></input>
+        </label ><br></br>
+    <label for="email-label">Email id:
+          <input name="email-label" id="email" type="email" placeholder="Enter your email"  required></input>
+        </label><br></br>
+    <label for="number-label" >Age:
+          <input name="number-label" id="age" type="number" placeholder="Enter your Age" min="12" max="50" required></input>
+        </label><br>
+    </div>
+    
+    <label for="time-schedule">Choose your convinient time schedule: </label>
+      <select name="time-schedule" id="time-schedule">
+        <option value="9A.M-10A.M">9A.M-10A.M</option>
+        <option value="9A.M-10A.M">10A.M-11A.M</option>
+        <option value="9A.M-10A.M">12P.M-1P.M</option>
+        <option value="9A.M-10A.M">1P.M-2P.M</option>
+    </select><br>
+        </br>
+    <fieldset>
+    <legend> Give us a feedback for our website</legend>
+    <label for="rating">
+      
+          <input name="rating" type="radio" name="rating">Excellant</input>
+        </label><br>
+    <label for="rating">
+          <input name="rating" type="radio" name="rating">Fantastic</input>
+        </label><br>
+    <label for="rating">
+          <input name="rating" type="radio" name="rating">Very good</input>
+        </label><br>
+    <label for="rating">
+          <input name="rating" type="radio" name="rating">Good</input>
+        </label><br>
+    <label for="rating">
+          <input name="rating" type="radio" name="rating">Need to improve</input>
+        </label>
+    </fieldset><br>
+    <fieldset id="interest">
+      <legend ><p>what is/are your field of interest? </p></legend>
+      <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Web development</input>
+        </label><br>
+    <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Mobile development</input>
+        </label><br>
+    <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Cyber security</input>
+        </label><br>
+    <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Internet of things</input>
+        </label><br>
+    <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Cloud computing</input>
+        </label><br>
+    <label for="interest">
+          <input id="checkbox" type="checkbox" name="interest">Artificial intelligence</input>
+        </label>
+    </fieldset><br>
+    <label for="text-space" > Review of Tinku website: </label><br>
+    <textarea name="text-space"  rows="6" cols="50%" id="text-area" placeholder="Comment here"></textarea><br>
+    <input id="submit" type="submit" value="submit"></input>
+    </form>
+    </div>
